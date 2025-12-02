@@ -52,12 +52,6 @@ En el repositorio viene incluido un archivo .zip con un instalador. Lo único qu
 ### Ventana para añadir, editar o eliminar un servicio
 ![anhadir_reparacion](https://github.com/RubenAC1999/AldComputerService/blob/main/assets/gestion_reparaciones.png)
 
-### Ventana para configurar la alarma
-![gestion_alarma](https://github.com/RubenAC1999/AldComputerService/blob/main/assets/gestion_alarma.png)
-
-### Ventana para conectarse a la BD y generar informe (con archivo JRXML)
-![gestion_informe](https://github.com/RubenAC1999/AldComputerService/blob/main/assets/generacion_informe.png)
-
 * Para mucha más información consultar los manuales del repositorio.*
 
 ## Licencia
