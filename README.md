@@ -34,8 +34,7 @@ Este proyecto ha servido como práctica para aplicar conceptos de:
 
 ---
 
-## Instalación
-En el repositorio viene incluido un archivo .zip con un instalador. Lo único que hay que hacer es descomprimirlo y ejecutar el achivo .exe y seguir los pasos para generar el .JAR.
+## Instalación y ejecución
 
 ### Requisitos
 - Sistema operativo: Windows, Linux o MacOS
@@ -43,6 +42,36 @@ En el repositorio viene incluido un archivo .zip con un instalador. Lo único qu
 - Base de datos: Configurada, accesible y de MariaDB.
 - Memoria RAM: Mínimo 2GB recomendado.
 
+### Clonar el repositorio
+```bash
+git clone https://github.com/RubenAC1999/AldComputerService.git
+cd AldComputerService
+```
+
+### Ejecutar el instalador
+En el repositorio viene incluido un instalador. Lo único que hay que hacer es ejecutarlo y seguir los pasos para generar el .JAR.
+
+![instalacion](https://github.com/RubenAC1999/AldComputerService/blob/main/assets/instalacion.JPG)
+
+
+## Estructura del proyecto
+
+```text
+Ald_rac/
+│
+├── src/
+│   ├── controller/   # Controladores (lógica que conecta modelo y vista)
+│   ├── model/        # Clases de negocio (Cliente, Equipo, Reparacion...)
+│   ├── view/         # Formularios y ventanas Swing
+│   └── Main.java     # Clase principal de la aplicación
+│
+├── Guia de referencia_ALDRAC.pdf
+├── Manual de usuario_ALDRAC.pdf
+├── ALDComputerService.exe
+└── README.md
+```
+
+---
 
 ## Ejemplos de uso
 
